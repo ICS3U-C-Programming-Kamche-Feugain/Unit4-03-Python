@@ -26,7 +26,7 @@ def main():
         else:
             # Calculate the square number using a for loop
             for i in range(number_int + 1):
-                square = i**2
+                square = i ** 2
                 print(str(i) + "^2 = " + str(square))
 
     except ValueError:
